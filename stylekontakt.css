@@ -1,0 +1,23 @@
+body {
+    margin: 0 0;
+    padding: 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: Josefin Sans;
+    color: brown;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+img {
+    width: 200px;
+}
+
+a {
+    margin-left: auto;
+    margin-right: auto;
+}

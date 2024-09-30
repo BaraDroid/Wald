@@ -1,0 +1,41 @@
+body {
+    padding: 50px 0;
+    margin: 0 0;
+    background-color: #627e24;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    height: 300px;
+}
+
+#Family {
+    border-radius: 30px;
+    box-shadow: rgba(101, 1, 1, 0.368) 0px 22px 70px 4px;
+}
+
+img {
+    width: 60px;
+    border-radius: 10px;
+    opacity: 0.85;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+div {
+    width: 200px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    font-family: Josefin Sans;
+    color:rgb(19, 0, 0);
+    
+    box-shadow: rgba(101, 1, 1, 0.368) 0px 7px 29px 0px;
+}

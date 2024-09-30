@@ -1,0 +1,265 @@
+body {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+/*-----header-------*/
+.gold {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    height: 100px;
+    background-color: rgba(218, 165, 32, 0.74);
+}
+
+.nadpis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    color: rgb(19, 0, 0);
+    font-size: 80px;
+    font-weight: bold;
+    padding-top: 3%;
+}
+
+.nadpis img {
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.gold img {
+    width: 30px;
+}
+
+#lupe {
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+#adler {
+    width: 70px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.gold a {
+    text-decoration: none;
+    font-family: Josefin Sans;
+    color: rgb(121, 24, 24);
+    transition-delay: 70ms;
+}
+
+.gold a:hover {
+    color: rgba(255, 234, 0, 0.772);
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgba(23, 117, 23, 0.856);
+    list-style: none;
+    height: 40px;
+    margin: 0 0;
+    padding-left: 0px;
+    font-family: Josefin sans;
+}
+
+.yellow {
+    text-decoration: none;
+    color:  rgba(255, 234, 0, 0.772);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 99;
+}
+
+#Textchange:hover span {
+    display: none;
+}
+
+#Textchange:hover::before {
+    content: "SCREECH!";
+}
+
+/*--------hero---------warum ist das "hero" hier weiß geschrieben?*/
+hero {
+    display: flex;
+    height: 100vh;
+    background-color: whitesmoke;
+    margin-top: 140px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 50px;
+}
+
+hero img {
+    width: 40px;
+}
+
+.überschrift {
+    padding: 100px 100px;
+    font-family: Josefin Sans;
+    color: rgb(19, 0, 0);
+    font-size: 50px;
+    font-weight: bold;
+ }
+
+ #little {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 5px;
+    color: red;
+ }
+
+ #big {
+    text-transform: uppercase;
+    color:brown;
+    line-height: 90px;
+ }
+
+ #light {
+    font-weight: lighter;
+    font-size: 30px;
+    color: brown;
+ }
+
+ .text p {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Josefin Sans;
+ }
+
+
+ .wrapper {
+    position: absolute;
+    top: 70%;
+    left: 180px;
+    transform: translate (-50%, -50%);
+    margin-top: 30px;
+    padding: 10px 10px;
+    background-color: rgb(218, 32, 32)4;
+    border: 2px solid rgb(19, 0, 0);
+    transition: all .35s;
+    background-color: rgba(218, 165, 32, 0.47);
+ }
+
+ button a {
+    font-family: Josefin Sans;
+    text-decoration: none;
+    color: rgb(19, 0, 0);
+    position: relative;
+ }
+
+ #insidewrapper {
+    z-index: 2;
+    position: relative;
+ }
+
+ .wrapper::after {
+    background: rgba(218, 32, 32, 0.74);
+    transition: all .35s;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    content: "";
+    position: absolute;
+ }
+
+ button a:hover {
+    color: #fff;
+ }
+
+ .wrapper:hover::after {
+    width: 100%;
+ }
+
+ .text img {
+    width: 15px;
+ }
+
+ /*-----section-----*/
+ section {
+    height: 100vh;
+    font-family: Josefin Sans;
+    position: relative;
+ }
+
+ section div {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 180px;
+    padding-right: 100px;
+    padding-top: 150px;
+ }
+
+ section a {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: brown;
+    text-decoration: none;
+ }
+
+ section h3 {
+    line-height: 90px;
+    text-transform: uppercase;
+    color: brown;
+    font-size: 50px;
+    font-weight: bold;
+ }
+
+ section img {
+    height: 300px;
+    transition: all 1s;
+ }
+
+ section img:hover {
+    transform: scale(1.3);
+ }
+
+ #Pilz {
+    margin-right: 150px;
+ }
+
+ #Baum {
+    margin-right: 50px;
+ }
+
+
+ /*-----background colors-----*/
+ #Bäume {
+    background-color: #949746;
+ }
+
+ #Tiere {
+    background-color: #ca4f33ec;
+ }
+
+ #Pilze {
+    background-color: rgb(225, 191, 146);
+ }
+
+ #Steine {
+    background-color: lightgrey;
+ }
+
+ /*---mouse on image*/
+ #Steine img {
+    cursor: pointer;
+}
+
